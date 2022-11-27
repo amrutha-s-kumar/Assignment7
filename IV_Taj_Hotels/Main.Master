@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Assignment7.IV_Taj_Hotels.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+  
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taj Hotels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../IV_Taj_Hotels/StyleSheet1.css">
+    <link rel="stylesheet" href="../TajHotels/ourteam.css">
+    <link rel="stylesheet" href="../TajHotels/contactus.css">
+
+
+
+     <header class="header">
+        <a href="#" class="logo">Taj-Hotel</a>
+        <nav class="nav-items">
+             
+                
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+           
+            <a href="Home.aspx">Home</a>
+            <a href="Ourteam.aspx">Our Team</a>
+            <a href="Menu.aspx">Menu</a>
+            <a href="gallery.aspx">Gallery</a>
+            <a href="Contact.aspx">Contact</a>
+        </nav>
+    </header>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <footer class="footer">
+       
+       
+           
+        </div>
+    </footer>
+        </div>
+    </form>
+</body>
+</html>
